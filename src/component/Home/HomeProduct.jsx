@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
+import { useCart } from '../CartContect'
 import product1 from '../../images/product-01.jpg'
 import iconheart1 from '../../images/icons/icon-heart-01.png'
 import iconheart2 from '../../images/icons/icon-heart-02.png'
@@ -11,9 +12,9 @@ import product from '../Shop/ShopProduct'
 
 
 const HomeProduct = () => {
-
+	const { addToCart } = useCart();
 	const [products, setProducts] = useState([]);
-
+	
 	useEffect(() => {
         const fetchProducts = async () => {
             try {
@@ -25,6 +26,10 @@ const HomeProduct = () => {
 
         fetchProducts();
     }, []);
+
+	const handleAddToCart = (product) => {
+        addToCart(product);
+    };
 
   return (
     <section class="bg0 p-t-23 p-b-140">
@@ -297,8 +302,8 @@ const HomeProduct = () => {
                                               backgroundSize:'contain'
                                           }}/>
 				<a
-					href="#"
 					className="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1"
+					onClick={() => handleAddToCart(product)}
 				>
 					Add to cart
 				</a>

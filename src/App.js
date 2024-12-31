@@ -7,12 +7,14 @@ import About from './page/About';
 import Contact from './page/Contact'
 import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { CartProvider } from './component/CartContect';
 import Features from './page/Features';
 
 
 
 function App() {
   return (
+    <CartProvider>
     <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/home"/>}/>
@@ -22,9 +24,9 @@ function App() {
         <Route path='/blog' element={<Blog/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='contact' element={<Contact/>}/>
-  
       </Routes>
     </Router>
+    </CartProvider>
   );
 }
 

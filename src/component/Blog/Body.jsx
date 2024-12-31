@@ -23,7 +23,7 @@ const Body = () => {
 				<div class="col-md-8 col-lg-9 p-b-80">
 					<div class="p-r-45 p-r-0-lg">
 						<div class="p-b-63">
-							<a href="blog-detail.html" class="hov-img0 how-pos5-parent">
+							<a href="#" class="hov-img0 how-pos5-parent">
 								<img src={blog1} alt="IMG-BLOG"/>
 
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
@@ -39,7 +39,7 @@ const Body = () => {
 
 							<div class="p-t-32">
 								<h4 class="p-b-15">
-									<a href="blog-detail.html" class="ltext-108 cl2 hov-cl1 trans-04">
+									<a href="#" class="ltext-108 cl2 hov-cl1 trans-04">
 										8 Inspiring Ways to Wear Dresses in the Winter
 									</a>
 								</h4>
@@ -65,7 +65,7 @@ const Body = () => {
 										</span>
 									</span>
 
-									<a href="blog-detail.html" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+									<a href="#" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										Continue Reading
 
 										<i class="fa fa-long-arrow-right m-l-9"></i>
@@ -75,7 +75,7 @@ const Body = () => {
 						</div>
 
 						<div class="p-b-63">
-							<a href="blog-detail.html" class="hov-img0 how-pos5-parent">
+							<a href="#" class="hov-img0 how-pos5-parent">
 								<img src={blog2} alt="IMG-BLOG"/>
 
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
@@ -91,7 +91,7 @@ const Body = () => {
 
 							<div class="p-t-32">
 								<h4 class="p-b-15">
-									<a href="blog-detail.html" class="ltext-108 cl2 hov-cl1 trans-04">
+									<a href="#" class="ltext-108 cl2 hov-cl1 trans-04">
 										The Great Big List of Men’s Gifts for the Holidays 
 									</a>
 								</h4>
@@ -117,7 +117,7 @@ const Body = () => {
 										</span>
 									</span>
 
-									<a href="blog-detail.html" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+									<a href="#" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										Continue Reading
 
 										<i class="fa fa-long-arrow-right m-l-9"></i>
@@ -127,7 +127,7 @@ const Body = () => {
 						</div>
 
 						<div class="p-b-63">
-							<a href="blog-detail.html" class="hov-img0 how-pos5-parent">
+							<a href="#" class="hov-img0 how-pos5-parent">
 								<img src={blog3} alt="IMG-BLOG"/>
 
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
@@ -143,7 +143,7 @@ const Body = () => {
 
 							<div class="p-t-32">
 								<h4 class="p-b-15">
-									<a href="blog-detail.html" class="ltext-108 cl2 hov-cl1 trans-04">
+									<a href="#" class="ltext-108 cl2 hov-cl1 trans-04">
 										5 Winter-to-Spring Fashion Trends to Try Now
 									</a>
 								</h4>
@@ -169,7 +169,7 @@ const Body = () => {
 										</span>
 									</span>
 
-									<a href="blog-detail.html" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
+									<a href="#" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										Continue Reading
 
 										<i class="fa fa-long-arrow-right m-l-9"></i>
